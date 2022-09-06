@@ -72,24 +72,33 @@ public abstract class Cell implements Movements{
 		return pos;
 	}
 
-	public void moveAround() {
-		if (pos.x < 0) {
-            pos.x = 0;
-        } else if (pos.x >= LaunchWorld.COLUMNS) {
-            pos.x = pos.x - 2;
-        }
-        // prevent the player from moving off the edge of the board vertically
-        if (pos.y < 0) {
-            pos.y = 0;
-        } else if (pos.y >= LaunchWorld.ROWS) {
-            pos.y = pos.y - 2;
-        }
-		this.moveUp();
-		this.moveLeft();
-		this.moveDown();
-		this.moveRight();
-		
+	@Override
+	public void moveUpLeft() {
+		moveUp();
+		moveLeft();
 	}
+	
+	@Override
+	public void moveUpRight() {
+		moveUp();
+		moveLeft();
+	}
+	
+	@Override
+	public void moveDownRight() {
+		moveDown();
+		moveRight();
+	}
+	
+	@Override
+	public void moveDownLeft() {
+		moveDown();
+		moveLeft();
+	}
+	
+	
+	
+	
 	@Override
 	public void moveUp() {
 		pos.translate(0, -1);
@@ -104,6 +113,7 @@ public abstract class Cell implements Movements{
         } else if (pos.y >= LaunchWorld.ROWS) {
             pos.y = pos.y - 2;
         }
+        pos.translate(0, 0);
     }
 		
 	@Override
