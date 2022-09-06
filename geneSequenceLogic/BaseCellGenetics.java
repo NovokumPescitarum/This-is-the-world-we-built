@@ -10,7 +10,10 @@ public class BaseCellGenetics {
         add("B");
         add("C");
         add("D");
-        add("O");
+        add("E");
+        add("F");
+        add("G");
+        add("H");
     }};
 
 	public ArrayList<String> getGenetics() {
