@@ -1,6 +1,11 @@
 # This-is-the-world-we-built
 Programmed with Java: A bare-bones 16-bit life simulator
 
+## Requirements to run
+```
+apt install openjdk-11-jdk
+```
+
 ## The idea was to try and build a life simulator using Object Oriented Programming practices
 
 ### I intend to develop this program further, some of the updates in sight
