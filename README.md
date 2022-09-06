@@ -1,7 +1,7 @@
 # This-is-the-world-we-built
 Programmed with Java: A bare-bones pixel based life simulator
 
-## The idea was to try and build a life simulator using nothing but Object Oriented Programming practices
+## The idea was to try and build a life simulator using Object Oriented Programming practices
 I intend to develop this program further, some of the updates in sight
 
 1.) Better Genetics. Right now it's four movements with some basic punishment and 
