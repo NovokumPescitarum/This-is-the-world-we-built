@@ -48,7 +48,8 @@ public class SpawnedWorld extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
     	
     	new RanodmizeNutrientSpawn(nuteList);
-	    new CollisionLogic(cellList,nuteList);
+	new CollisionLogic(cellList,nuteList);
+	new AttackLogic(cellList);
         repaint();
     }
 
