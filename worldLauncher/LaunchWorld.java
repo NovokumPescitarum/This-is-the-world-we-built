@@ -14,7 +14,7 @@ public class LaunchWorld {
     public static final int ROWS = 150;
     public static final int COLUMNS = 250;
     // controls how many nutrients appear on the board
-    public static final int NUM_NUTES = 4000;
+    public static final int NUM_NUTES = 1200;
  // controls how many cell appear on the board
     public static final int NUM_CELLS = 200;
 	
