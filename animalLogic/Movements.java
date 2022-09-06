@@ -10,5 +10,11 @@ public interface Movements {
 	
 	public void moveRight();
 	
-	public void moveAround();
+	public void moveUpLeft();
+	
+	public void moveUpRight();
+	
+	public void moveDownRight();
+	
+	public void moveDownLeft();
 }
