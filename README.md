@@ -1,5 +1,5 @@
 # This-is-the-world-we-built
-Programmed with Java: A bare-bones pixel based life simulator
+Programmed with Java: A bare-bones 16-bit life simulator
 
 ## The idea was to try and build a life simulator using Object Oriented Programming practices
 
