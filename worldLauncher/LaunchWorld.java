@@ -16,7 +16,7 @@ public class LaunchWorld {
     // controls how many nutrients appear on the board
     public static final int NUM_NUTES = 1200;
  // controls how many cell appear on the board
-    public static final int NUM_CELLS = 2500;
+    public static final int NUM_CELLS = 500;
 	
 	private static void initWindow() {
 	// create a window frame and set the title in the toolbar
