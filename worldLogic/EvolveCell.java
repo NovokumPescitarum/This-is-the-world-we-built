@@ -45,10 +45,6 @@ public class EvolveCell {
 		System.out.println("Width: " + cell.getWidth());
 		System.out.println("Location: " + cell.getPos());
 		System.out.println();
-		
-
-		cell.setHeight(cell.getHeight() + 1);
-		cell.setWidth(cell.getWidth() + 1);
 	}
 
 }

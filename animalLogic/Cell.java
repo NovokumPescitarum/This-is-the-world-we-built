@@ -14,6 +14,7 @@ import worldLauncher.LaunchWorld;
 
 public abstract class Cell implements Movements{
 	
+	
 	private String lastFiredSequence = "0";
 	private int width = 5;
 	private int height = 5;
@@ -24,7 +25,6 @@ public abstract class Cell implements Movements{
 	private Point pos;
 	private BufferedImage image;
 	private ArrayList<String> baseCellGenetics = new BaseCellGenetics().getGenetics();
-        
 
 	public Cell(int x, int y, int id, String imagePath) {
 		loadImage(imagePath);
@@ -83,8 +83,7 @@ public abstract class Cell implements Movements{
 		moveDown();
 		moveLeft();
 	}
-	
-	
+		
 	@Override
 	public void moveUp() {
 		pos.translate(0, -1);
@@ -186,18 +185,13 @@ public abstract class Cell implements Movements{
 		this.lastFiredSequence = lastFiredSequence;
 	}
 
-
-
 	public ArrayList<String> getBaseCellGenetics() {
 		return baseCellGenetics;
 	}
 
-
-
 	public void setBaseCellGenetics(ArrayList<String> baseCellGenetics) {
 		this.baseCellGenetics = baseCellGenetics;
 	}
-
 
 	public int getKillCount() {
 		return killCount;

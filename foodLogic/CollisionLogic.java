@@ -21,6 +21,7 @@ public class CollisionLogic {
 					collectedNutrients.add(nute);
 					cell.addNutrient(nute.getNutritiousValue());
 					cell.setHeight(cell.getHeight() + 1);
+					cell.setWidth(cell.getWidth() + 1);
 					
 					evolutionLogic.EvolveNutrientGene(cell.getLastFiredSequence(), cell.getBaseCellGenetics(), cell);
 					}
