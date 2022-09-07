@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: IsaacTheBrave (Copyright is a lie)
+Main-Class: worldLauncher.LaunchWorld
