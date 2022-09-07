@@ -10,7 +10,7 @@ apt install openjdk-11-jdk
 
 ### I intend to develop this program further, some of the updates in sight
 
-### 1.) Better Genetics. Right now it's four movements with some basic punishment and reinforcement. 
+### 1.) Better Genetics. Right now it's eight movements with some basic punishment and reinforcement. 
 
 ### 2.) Implement a tiny particle that if a cell touches it, it is contaminated with a disease that has a 1/100 chance of spreading to the nearest Cell neighbour throughout the little particle's life cycle
 
